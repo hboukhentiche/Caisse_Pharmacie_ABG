@@ -8,17 +8,17 @@ proxies>
       
       <active>true</active>
    
-      <protocol>https</protocol>
+      <protocol>http</protocol>
   
       <username>proxyuser</username>
    
       <password>proxypass</password>
       
-      <host>proxy.host.net</host>
+      <host>proxy.github.net</host>
       
-      <port>443</port>
+      <port>80</port>
     
-      <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
+      <nonProxyHosts>local.net|some.github.com</nonProxyHosts>
  
    </proxy>
   
