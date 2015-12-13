@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/SETTINGS/1.0.0">
+proxies>
+  
+   <proxy>
+     
+      <id>optinal</id>
+      
+      <active>true</active>
+   
+      <protocol>https</protocol>
+  
+      <username>proxyuser</username>
+   
+      <password>proxypass</password>
+      
+      <host>proxy.host.net</host>
+      
+      <port>443</port>
+    
+      <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
+ 
+   </proxy>
+  
+</proxies>
+
+
+
+<servers>
+    <server>
+      
+       <id>github.com</id>
+
+       <username>hboukhentiche</username>
+
+       <password>MyPassword</password>
+ 
+    </server>
+  
+</servers>
+</settings>
